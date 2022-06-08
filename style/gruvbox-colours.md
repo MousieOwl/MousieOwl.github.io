@@ -1,4 +1,4 @@
- # Dark
+/* Colours */
 bg - #282828
 fg - #ebdbb2
 gray1 - #928374
@@ -20,7 +20,7 @@ orange1 - #d65d0e
 orange2 - #fe8019
 bg0_h - #1d2021
 bg0 - #282828
-bg1 - # 3c3836
+bg1 - #3c3836
 bg2 - #504945
 bg3 - #665c54
 bg4 - #7c6f64

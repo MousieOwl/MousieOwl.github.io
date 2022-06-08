@@ -1,7 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Train+One&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Antonio';
     background: #282828;
     color: #bdae93;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+.header {
+    padding: 30px;  
+    text-align: center;
+    background: #3c3836;
+    color: #fbf1c7;
+    margin:0px;
+    background-image:url(/style/images/header.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-size: 20px;  
+    font-family: 'antonio';
+    height: 250px;
+  }
+  
+.header h1 {
+    font-size: 50px;
+    font-family: 'Train One';
+}
+  
+.header img {
+    height: 150px;
+}
+  
+/* Navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #504945;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #fbf1c7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.topnav a:hover {
+    background-color: #3c3836;
+    color: #fbf1c7;
+}
+
+/* Dropdowns */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #fbf1c7;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #3c3836;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d5c4a1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #282828;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #fbf1c7;
+    color: #282828;
+    border-radius: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 0px 15px 15px 15px;
+}
+
+.full .card h1{
+    font-size: 40px;
+    margin: 0px 0px 10px 0px
+}
+  
+.full .card h2{
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'antonio';
 }
