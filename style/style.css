@@ -140,3 +140,55 @@ body {
     width: 100%;
     margin-top: auto;
 }
+
+/* columns */
+.leftcolumn {   
+    float: left;
+    width: 66%;
+    padding: 0px 0px 0px 10px;
+  }
+  
+  .full {   
+    float: left;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 34%;
+    padding: 0px 10px 0px  10px;
+  }
+  
+  .card {
+    background-color: #665c5433;
+    padding: 0px 5px 0px 5px;
+    margin: 5px 0px 0px 0px;
+    border-radius:5px
+  }
+  
+  .rightcolumn .card{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bdae93;
+  }
+  
+  .card img{
+    width: 100%;
+  }
+  
+  .testimage {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .row {
+    min-height: 600px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
