@@ -5,6 +5,7 @@
     <title>OwlSite Home</title>
     <link rel="stylesheet" href="/style/style.css">
     <script src="/scripts/jq.js"></script>
+    <script src="/scripts/js.js"></script>
 </head>
 
 <body>
@@ -13,33 +14,66 @@
         <div class="body">
             <div class="leftcolumn">
                 <h1>The FFXIV Mega Page</h1>
-                <p>In early 2022 I got really into final fantasy 14, since then it has become the main game I play and one of my favourite games ever.</p>
-                <p>I main dark knight, playing scolar as my main healer and monk as my main DPS (yes I know I dont play much DPS)</p>
-                <p>I play on the aether data center and am mainly found on Faeire, I don't have a free company but am working to get one with my friends ASAP.</p>
+                <p>This "Project" details my experiences and struggles with critically acclaimed MMORPG final fantasy XIV.</p>
+                <div class="line"></div>
+                <p>Joining the game in early 2022 I got to properly experience FFXIV for the first time and absolutely fell in love, from the story and world to the raids and community I was absolutely hooked with so much to explore and do.
+                </p>
+                <h2>Expansion Reviews</h2>
                 <div class="card">
                     <h3>ARR (2.0)</h3>
-                    <p>ARR, or base game 14 (ignoring what squenix doesn't want to think about}</p>
+                    <button class="showbutton" onclick="showhide()"> +/- </button>
+                    <div id="showhide" class="showhide">
+                        <p>ARR, or base game 14 [ignoring what squenix doesn't want to think about]</p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Post ARR (2.X)</h3>
+                    <button class="showbutton" onclick="showhide()" target="2.x"> +/- </button>
+                    <div id="showhide2.x" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Heavensward (3.0)</h3>
+                    <button class="showbutton" onclick="showhide()" target="3.0"> +/- </button>
+                    <div id="showhide3.0" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Post Heavensward (3.X)</h3>
+                    <button class="showbutton" onclick="showhide()" target="3.x"> +/- </button>
+                    <div id="showhide3.x" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Stormblood (4.0)</h3>
+                    <button class="showbutton" onclick="showhide()" target="4.0"> +/- </button>
+                    <div id="showhide4.0" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Post Stormblood (4.X)</h3>
+                    <button class="showbutton" onclick="showhide()" target="4.x"> +/- </button>
+                    <div id="showhide4.x" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Shadowbringers (5.0)</h3>
+                    <button class="showbutton" onclick="showhide()" target="5.0"> +/- </button>
+                    <div id="showhide5.0" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Post Shadowbringers (5.1-5.2)</h3>
+                    <button class="showbutton" onclick="showhide()" target="5.x"> +/- </button>
+                    <div id="showhide5.x" class="showhide">
+                        <p></p>
+                    </div>
                 </div>
             </div>
             <div class="rightcolumn">

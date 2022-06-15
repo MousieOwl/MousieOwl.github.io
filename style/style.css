@@ -199,6 +199,36 @@ body {
     clear: both;
   }
 
+  .showbutton {
+    margin: 15px 5px;
+    float: right;
+    background-color: #00000000;
+    color:#bdae93;
+    border: none;
+    font-style: 'bold';
+    text-align: center;
+    font-family: 'antonio';
+    font-size: 20px;
+  }
+
+  .showbutton:hover {
+    color:#fbf1c7;
+  }
+
+  h3 {
+      margin: 15px 5px;
+      display: inline-block;
+      font-size: 20px;
+  }
+
+  .card p {
+    margin: 15px 2px;
+  }
+
+  .showhide {
+    display: none;
+  }
+
   /* idk */
   .line {
       width:80%;
